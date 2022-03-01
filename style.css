@@ -211,22 +211,10 @@
 /* Esercizio 12 */
 
 .ex-12-top-white {
-/*     position: absolute;
-    top: -10px;
-    left: 10%;
-    background: #f5f5f5;
-    width: 60px;
-    height: 20px;*/
     animation: movetop 5s linear infinite;    
 }
 
 .ex-12-bottom-white {
-/*     position: absolute;
-    bottom: -10px;
-    right: 20%;
-    background: #f5f5f5;
-    width: 60px;
-    height: 20px;*/
     animation: movebottom 5s linear infinite;    
 }
 
@@ -265,3 +253,136 @@
 }
 
 /* Esercizio 13 */
+
+.ex-13-top-white {
+    animation: rotationtop 5s linear infinite;
+}
+
+.ex-13-bottom-white {
+    animation: rotationbottom 5s linear infinite;
+}
+
+@keyframes rotationtop {
+    25% {
+        top: -10px;
+        left: 190px;
+    }
+
+    30% {
+        top: -10px;
+        left: 190px;
+        height: 60px;
+        width: 20px;
+    }
+
+    40% {
+        top: 10px;
+        left: 190px;
+        height: 60px;
+        width: 20px;
+    }
+
+    50% {
+        top: 60px;
+        left: 150px;     
+        height: 20px;
+        width: 60px;   
+    }
+
+    60% {
+        top: 60px;
+        left: -10px;     
+        height: 20px;
+        width: 60px;          
+    }
+
+    70% {
+        top: 10px;
+        left: -10px;
+        height: 60px;
+        width: 20px;
+    }
+
+    80% {
+        top: -10px;
+        left: -10px;
+        height: 60px;
+        width: 20px;        
+    }
+
+    90% {
+        top: -10px;
+        left: -10px;
+        height: 20px;
+        width: 60px;                       
+    }
+
+    100% {
+        top: -10px;
+        left: 10%;
+    }
+
+}
+
+@keyframes rotationbottom {
+    25% {
+        bottom: -10px;
+        right: 190px;
+    }
+
+    30% {
+        bottom: -10px;
+        right: 190px;
+        height: 60px;
+        width: 20px;
+    }
+
+    40% {
+        bottom: 10px;
+        right: 190px;
+        height: 60px;
+        width: 20px;
+    }
+
+    50% {
+        bottom: 60px;
+        right: 150px;     
+        height: 20px;
+        width: 60px;   
+    }
+
+    60% {
+        bottom: 60px;
+        right: -10px;     
+        height: 20px;
+        width: 60px;          
+    }
+
+    70% {
+        bottom: 10px;
+        right: -10px;
+        height: 60px;
+        width: 20px;
+    }
+
+    80% {
+        bottom: -10px;
+        right: -10px;
+        height: 60px;
+        width: 20px;        
+    }
+
+    90% {
+        bottom: -10px;
+        right: -10px;
+        height: 20px;
+        width: 60px;                       
+    }
+
+    100% {
+        bottom: -10px;
+        right: 20%;
+    }
+    
+}
+
