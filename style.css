@@ -266,6 +266,8 @@
     25% {
         top: -10px;
         left: 190px;
+        height: 20px;
+        width: 60px;
     }
 
     30% {
@@ -320,6 +322,8 @@
     100% {
         top: -10px;
         left: 10%;
+        height: 20px;
+        width: 60px;
     }
 
 }
@@ -327,7 +331,9 @@
 @keyframes rotationbottom {
     25% {
         bottom: -10px;
-        right: 190px;
+        right: 150px;
+        height: 20px;
+        width: 60px;
     }
 
     30% {
@@ -382,6 +388,8 @@
     100% {
         bottom: -10px;
         right: 20%;
+        height: 20px;
+        width: 60px;
     }
     
 }
