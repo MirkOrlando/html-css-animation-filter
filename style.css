@@ -165,21 +165,51 @@
 
 @keyframes loading {
     20%{
-        transform: rotate(90deg);
+        transform: rotate(72deg);
     }
 
     40%{
-        transform: rotate(180deg);
+        transform: rotate(144deg);
     }
 
     60%{
-        transform: rotate(270deg);
+        transform: rotate(216deg);
     }
 
     80%{
+        transform: rotate(288deg);
+    }
+
+    100%{
         transform: rotate(360deg);
     }
 
 }
 
 /* Esercozio 11 */
+
+.ex-11-icon {
+    animation: threequarters 5s linear  infinite;
+}
+
+@keyframes threequarters {
+
+    20%{
+        transform: rotate(67.5deg);
+    }
+
+    40%{
+        transform: rotate(135deg);
+    }
+
+    60%{
+        transform: rotate(202.5deg);
+    }
+
+    80%{
+        transform: rotate(270deg);
+    }
+}
+
+/* Esercizio 12 */
+
